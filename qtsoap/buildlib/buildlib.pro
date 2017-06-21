@@ -1,7 +1,7 @@
 TEMPLATE=lib
 CONFIG += qt dll qtsoap-buildlib
 mac:CONFIG += absolute_library_soname
-win32|mac:!wince*:!win32-msvc:!macx-xcode:CONFIG += debug_and_release build_all
+#win32|mac:!wince*:!win32-msvc:!macx-xcode:CONFIG += debug_and_release build_all
 include(../src/qtsoap.pri)
 TARGET = $$QTSOAP_LIBNAME
 DESTDIR = $$QTSOAP_LIBDIR
